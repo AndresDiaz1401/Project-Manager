@@ -51,29 +51,58 @@ def test_cp206_abrir_proyecto_por_id(tmp_path):
 
 
 """
-CP208 - Eliminar proyecto con confirmación
+CP403 - Mover tarea a otra columna
 
-Title: CP208 Validar que el usuario pueda eliminar un proyecto existente con confirmación previa.
+Title: CP403 Mover la tarea a otra columna del proyecto.
 
 Description:
-Este caso confirma que el sistema permita eliminar un proyecto previamente creado,
-solicitando confirmación del usuario antes de eliminar.
 """
-def test_cp208_eliminar_proyecto_con_confirmacion(tmp_path):
-	archivo = tmp_path / "data.json"
-	storage = StorageManager(archivo_datos=archivo)
+def test_cp403_mover_tarea_otra_columna_minimal():
+	proyecto = Proyecto("Proyecto CP403")
 
-	proyecto = Proyecto(nombre="Proyecto CP208", descripcion="desc")
-	assert storage.guardar_proyecto(proyecto) is True
+	origen = proyecto.agregar_columna("A")
+	destino = proyecto.agregar_columna("B")
 
-	proyectos_antes = storage.cargar_todos_proyectos()
-	assert len(proyectos_antes) == 1
+	tarea = Tarea("t1")
+	origen.agregar_tarea(tarea)
 
-	resultado_eliminar = storage.eliminar_proyecto(proyecto.proyecto_id)
-	assert resultado_eliminar is True
+	# Mover: eliminar de origen y agregar a destino
+	origen.eliminar_tarea(tarea.tarea_id)
+	destino.agregar_tarea(tarea)
 
-	proyectos_despues = storage.cargar_todos_proyectos()
-	assert len(proyectos_despues) == 0
+	# Comprobaciones mínimas
+	assert proyecto.contar_tareas() == 1
+	assert destino.obtener_tarea(tarea.tarea_id) is not None
+	assert origen.obtener_tarea(tarea.tarea_id) is None
+
+
+"""
+CP502 - Mostrar columna de cada tarea
+
+Title: CP502 Verificar que el sistema muestre la columna donde se encuentra cada tarea.
+
+Description:
+Comprueba que, dado un proyecto con varias columnas y tareas, podamos identificar
+la columna que contiene cada tarea.
+"""
+def test_cp502_mostrar_columna_de_cada_tarea_simple():
+	proyecto = Proyecto(nombre="Proyecto CP502")
+	col_backlog = proyecto.agregar_columna("Backlog")
+
+	t1 = Tarea(titulo="backlog-1")
+	t2 = Tarea(titulo="backlog-2")
+
+	col_backlog.agregar_tarea(t1)
+	col_backlog.agregar_tarea(t2)
+
+	mapa = {}
+	for columna in proyecto.listar_columnas():
+		for tarea in columna.tareas:
+			mapa[tarea.titulo] = columna.nombre
+
+	assert mapa["backlog-1"] == "Backlog"
+	assert mapa["backlog-2"] == "Backlog"
+
 
 
 """
@@ -217,34 +246,6 @@ def test_cp808_conteo_tareas_por_columna():
 
 
 """
-CP502 - Mostrar columna de cada tarea
-
-Title: CP502 Verificar que el sistema muestre la columna donde se encuentra cada tarea.
-
-Description:
-Comprueba que, dado un proyecto con varias columnas y tareas, podamos identificar
-la columna que contiene cada tarea.
-"""
-def test_cp502_mostrar_columna_de_cada_tarea_simple():
-	proyecto = Proyecto(nombre="Proyecto CP502")
-	col_backlog = proyecto.agregar_columna("Backlog")
-
-	t1 = Tarea(titulo="backlog-1")
-	t2 = Tarea(titulo="backlog-2")
-
-	col_backlog.agregar_tarea(t1)
-	col_backlog.agregar_tarea(t2)
-
-	mapa = {}
-	for columna in proyecto.listar_columnas():
-		for tarea in columna.tareas:
-			mapa[tarea.titulo] = columna.nombre
-
-	assert mapa["backlog-1"] == "Backlog"
-	assert mapa["backlog-2"] == "Backlog"
-
-
-"""
 CP1001 - Guardado automático después de crear proyectos (versión junior)
 
 Title: CP1001 Guardar automáticamente después de crear proyectos.
@@ -256,4 +257,7 @@ def test_cp1001_guardado_automatico_minimal(tmp_path):
 
 	proyecto = Proyecto(nombre="Proyecto Auto", descripcion="")
 	assert storage.guardar_proyecto(proyecto) is True
+
+
+
 
