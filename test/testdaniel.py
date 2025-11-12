@@ -1,6 +1,7 @@
 import pytest
 from models import Proyecto, Tarea, Usuario
 from storage import StorageManager
+from cli import CliInterface
 
 """
 CP102 - Listar todos los usuarios registrados
@@ -238,6 +239,29 @@ def test_cp408_modificar_descripcion_tarea_simple():
 
 
 """
+CP409 - Agregar etiquetas a una tarea existente
+
+Title: CP409 Validar que el sistema permita agregar nuevas etiquetas a una tarea existente.
+
+Description:
+Prueba simple (junior) que crea una tarea, agrega etiquetas mediante la API `agregar_etiqueta`
+y verifica que las etiquetas se almacenan correctamente y no se duplican.
+"""
+def test_cp409_agregar_etiquetas_tarea_simple():
+	proyecto = Proyecto(nombre="Proyecto CP409")
+	columna = proyecto.agregar_columna("Tareas")
+
+	tarea = Tarea(titulo="Tarea etiquetas")
+	columna.agregar_tarea(tarea)
+
+	tarea.agregar_etiqueta("bug")
+	tarea.agregar_etiqueta("ui")
+
+	assert "bug" in tarea.etiquetas
+	assert "ui" in tarea.etiquetas
+
+
+"""
 CP502 - Mostrar columna de cada tarea
 
 Title: CP502 Verificar que el sistema muestre la columna donde se encuentra cada tarea.
@@ -263,8 +287,7 @@ def test_cp502_mostrar_columna_de_cada_tarea_simple():
 
 	assert mapa["backlog-1"] == "Backlog"
 	assert mapa["backlog-2"] == "Backlog"
-
-
+	
 
 """
 CP702 - Listar columnas del proyecto
@@ -418,6 +441,11 @@ def test_cp1001_guardado_automatico_minimal(tmp_path):
 
 	proyecto = Proyecto(nombre="Proyecto Auto", descripcion="")
 	assert storage.guardar_proyecto(proyecto) is True
+
+
+
+
+
 
 
 

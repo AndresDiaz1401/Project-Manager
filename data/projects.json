@@ -59,15 +59,18 @@
           "tareas": [
             {
               "tarea_id": "e321a41f-630a-4fe5-8148-eae57b5632cb",
-              "titulo": "Tarea 1",
-              "descripcion": "",
+              "titulo": "Tareita",
+              "descripcion": "Esta es la nueva descripcion",
               "prioridad": "Media",
               "asignado_a": null,
               "estado": "Pendiente",
               "fecha_creacion": "2025-11-11T22:25:25.914748",
-              "fecha_modificacion": "2025-11-11T22:25:25.914758",
+              "fecha_modificacion": "2025-11-11T22:28:40.889446",
               "fecha_vencimiento": null,
-              "etiquetas": []
+              "etiquetas": [
+                "Front",
+                "hola"
+              ]
             }
           ],
           "fecha_creacion": "2025-11-11T22:24:03.325775"
