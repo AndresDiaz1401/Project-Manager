@@ -16,4 +16,4 @@ TRABAJO FINAL DE LA MATERIA GESTION Y CALIDAD DE SOFTWARE
 3) pip install -r requeriments.txt
    
 # Ejecucion de las pruebas
-## LEER EL ARCHIVO READMETEST.TXT
+## LEER EL ARCHIVO README_TEST.TXT
