@@ -1,5 +1,6 @@
-from models import  Tarea, Proyecto
+from models import  Tarea, Proyecto, Usuario
 from cli import CliInterface
+from utils import ExportadorDatos
 
 #-----------------------------------------------------------------------------------
 # CP401 Cambiar la prioridad de la tarea
@@ -69,7 +70,6 @@ def test_ver_detalles_completos_tarea(monkeypatch, capsys):
     cli.proyecto_actual = proyecto
 
     # Simular interacción del usuario
-    # "8" -> Ver detalles, "0" -> Guardar y volver
     inputs = iter(["8", "0"])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
@@ -130,8 +130,6 @@ def test_busqueda_sin_resultados(monkeypatch, capsys):
     cli.proyecto_actual = proyecto
 
     # Simular entradas del usuario
-    # "revisión" no existe → sin resultados
-    # "" → presiona Enter para continuar
     inputs = iter(["revisión", ""])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
@@ -258,7 +256,7 @@ def test_mostrar_id_tareas_en_tablero(monkeypatch, capsys):
     salida = capsys.readouterr().out
 
     # Verificar ID (primeros 8 caracteres)
-    assert tarea1.tarea_id[:8] in salida, f"❌ No se muestra el ID de la tarea '{tarea1.titulo}'."
+    assert tarea1.tarea_id[:8] in salida, f"No se muestra el ID de la tarea '{tarea1.titulo}'."
 
 #--------------------------------------------------------------------------------------------------
 # CP605 - Guardar y cargar usuarios
@@ -279,7 +277,7 @@ def test_mostrar_usuario_asignado_o_sin_asignar(monkeypatch, capsys):
     col.agregar_tarea(tarea2)
     cli.proyecto_actual = proyecto
 
-    # Simular presionar Enter (porque ver_tablero usa input())
+    # Simular presionar Enter 
     inputs = iter([""])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
@@ -289,9 +287,208 @@ def test_mostrar_usuario_asignado_o_sin_asignar(monkeypatch, capsys):
     # Capturar salida
     salida = capsys.readouterr().out
 
-    # Verificar usuario asignado o "Sin asignar"
+    # Verificar usuario asignado o Sin asignar
     assert "Asignado: Daniel" in salida, "No se muestra el usuario asignado 'Daniel'."
     assert "Asignado: Sin asignar" in salida, "No se muestra 'Sin asignar' para tareas sin usuario."
+
+#----------------------------------------------------------------------------------------------------
+# CP106 - seleccionar un usuario existente como usuario actual
+def test_seleccionar_usuario_existente_como_actual(monkeypatch, capsys):
+   
+    cli = CliInterface()
+
+    # Crear usuarios directamente con los métodos del sistema
+    usuario1 = Usuario(nombre="Ana", email="ana@example.com")
+    usuario2 = Usuario(nombre="Luis", email="luis@example.com")
+
+    cli.storage.guardar_usuario(usuario1)
+    cli.storage.guardar_usuario(usuario2)
+
+    # Simular entradas del usuario
+    inputs = iter(["2", ""])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+
+    # Ejecutar el método real
+    cli.seleccionar_usuario()
+
+    # Capturar salida
+    salida = capsys.readouterr().out
+
+    # Verificar resultados
+    assert cli.usuario_actual is not None, "No se estableció ningún usuario actual."
+    assert cli.usuario_actual.nombre == "Luis", "No se seleccionó el usuario correcto."
+    assert "Luis" in salida, " No se muestra el nombre del usuario seleccionado en la interfaz."
+
+
+#----------------------------------------------------------------------------------
+# CP206 - Crear automáticamente tres columnas: Pendiente, En Progreso, Completada
+def test_creacion_proyecto_con_columnas_automaticas(monkeypatch):
+   
+
+    cli = CliInterface()
+
+    # Simular las entradas del usuario:4
+    inputs = iter(["Proyecto Prueba", "", ""])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+
+    # Ejecutar el método
+    cli.crear_proyecto()
+
+    # Recuperar el proyecto recién creado
+    proyectos = cli.storage.cargar_todos_proyectos()
+    proyecto = next((p for p in proyectos if p.nombre == "Proyecto Prueba"), None)
+
+    # Validaciones
+    assert proyecto is not None, "No se creó el proyecto correctamente."
+    nombres_columnas = [c.nombre for c in proyecto.columnas]
+    assert nombres_columnas == ["Pendiente", "En Progreso", "Completada"], \
+        f"Columnas creadas incorrectas: {nombres_columnas}"
+
+    
+#----------------------------------------------------------------------------------
+# CP306 - Se registran automáticamente fechas de creación y modificación
+def test_fechas_creacion_y_modificacion():
+
+    tarea = Tarea("Tarea con fechas")
+
+    # Verificar que ambas fechas existan
+    assert tarea.fecha_creacion is not None, "No se registró fecha de creación."
+    assert tarea.fecha_modificacion is not None, "No se registró fecha de modificación."
+
+#-------------------------------------------------------------------------------------------
+#CP406 Verificar actualización automática de la fecha de modificación
+def test_actualiza_fecha_modificacion_despues_de_cambio():
+    
+    tarea = Tarea("Revisar informe")
+    fecha_inicial = tarea.fecha_modificacion
+
+    # Modificar algún atributo de la tarea
+    tarea.actualizar(descripcion="Nueva descripción agregada")
+
+    # Verificar que la fecha haya cambiado
+    assert tarea.fecha_modificacion != fecha_inicial, " La fecha de modificación no se actualizó."
+#--------------------------------------------------------------------------------------
+#CP902 Exportación a CSV incluye las columnas requeridas    
+def test_exportar_csv_campos_basicos():
+    # Crear proyecto
+    proyecto = Proyecto("Proyecto Test")
+
+    # Crear columna y agregar al proyecto
+    columna = proyecto.agregar_columna("Pendiente")
+
+    # Crear tarea de prueba
+    tarea = Tarea(
+        titulo="Tarea 1",
+        descripcion="Descripción de prueba",
+        prioridad="Alta",
+        asignado_a="Usuario Test"
+    )
+    
+    # Agregar tarea a la columna
+    columna.agregar_tarea(tarea)
+
+    # Exportar a CSV
+    csv_resultado = ExportadorDatos.exportar_a_csv(proyecto)
+
+    # Validar encabezado
+    encabezado_esperado = "ID Tarea,TÃ­tulo,DescripciÃ³n,Prioridad,Estado,Asignado A,Fecha CreaciÃ³n,Etiquetas"
+    assert csv_resultado.split("\n")[0] == encabezado_esperado
+
+    # Validar que la tarea está en CSV
+    primera_linea = csv_resultado.split("\n")[1]
+    assert "Tarea 1" in primera_linea
+    assert "Descripción de prueba" in primera_linea
+    assert "Alta" in primera_linea
+    assert "Pendiente" in primera_linea
+    assert "Usuario Test" in primera_linea
+
+
+#---------------------------------------------------------------------------------------
+#CP903 exportar el proyecto a formato JSON
+def test_exportar_a_json_simple():
+    proyecto = Proyecto("Proyecto prueba")
+    
+    resultado = ExportadorDatos.exportar_a_json_simple(proyecto)
+    
+    # Solo verificar que la función retorna un diccionario
+    assert isinstance(resultado, dict)
+#--------------------------------------------------------------------------------------
+#CP803  total de tareas del proyecto
+def test_mostrar_total_tareas(monkeypatch, capsys):
+    # Crear la interfaz
+    cli = CliInterface()
+
+    # Crear un proyecto de prueba con una columna y tareas
+    proyecto = Proyecto("Proyecto Test", "Descripcion Test", propietario_id="1")
+    columna = proyecto.agregar_columna("Pendiente")
+
+    # Agregar tareas
+    tarea1 = Tarea("Tarea 1", "Desc 1", prioridad="Alta")
+    tarea2 = Tarea("Tarea 2", "Desc 2", prioridad="Media")
+    columna.agregar_tarea(tarea1)
+    columna.agregar_tarea(tarea2)
+
+    # Asignar proyecto actual
+    cli.proyecto_actual = proyecto
+
+    # Simular inputs del usuario
+    inputs = iter(["5", "", "6"])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+
+    # Ejecutar el menú de proyecto actual
+    cli.mostrar_menu_proyecto_actual()
+
+    # Capturar la salida
+    salida = capsys.readouterr().out
+
+    # Verificar que se muestra el total de tareas
+    assert "Total de tareas: 2" in salida
+
+
+#---------------------------------------------------------------------------------------
+#CP804 conteo de tareas por nivel de prioridad
+def test_ver_estadisticas(monkeypatch, capsys):
+    # Crear la interfaz
+    cli = CliInterface()
+    
+    # Crear un proyecto de prueba con una columna y tareas
+    proyecto = Proyecto("Proyecto Test", "Descripcion Test", propietario_id="1")
+    columna = proyecto.agregar_columna("Pendiente")
+    
+    # Agregar tareas
+    tarea1 = Tarea("Tarea 1", "Desc 1", prioridad="Alta")
+    tarea2 = Tarea("Tarea 2", "Desc 2", prioridad="Media")
+    columna.agregar_tarea(tarea1)
+    columna.agregar_tarea(tarea2)
+    
+    # Asignar proyecto actual
+    cli.proyecto_actual = proyecto
+
+    # Simular inputs del usuario
+    inputs = iter(["5", "", "6"])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+
+
+    # Llamar al menú de proyecto actual
+    cli.mostrar_menu_proyecto_actual()
+    
+    # Capturar salida
+    salida = capsys.readouterr().out
+    
+    # Verificar que se imprime el título de estadisticas y las tareas
+    assert "ESTADISTICAS: Proyecto Test" in salida
+    assert "Total de tareas: 2" in salida
+    assert "POR ESTADO:" in salida
+    assert "Pendiente: 2" in salida
+    assert "POR PRIORIDAD:" in salida
+    assert "Alta: 1" in salida
+    assert "Media: 1" in salida
+
+
+
+
+
+
 
 
 
