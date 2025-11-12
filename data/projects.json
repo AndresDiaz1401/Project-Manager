@@ -1,0 +1,2246 @@
+{
+  "proyectos": [
+    {
+      "proyecto_id": "c29eb568-8b38-4907-adc5-63f7d3de6396",
+      "nombre": "alejo",
+      "descripcion": "hhgg",
+      "propietario_id": "c2b4e1f6-a986-43a5-aed1-e936610bc1a7",
+      "columnas": [
+        {
+          "columna_id": "8529bc6a-665e-4c27-8a94-70cbee9ae620",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:01:13.031446"
+        },
+        {
+          "columna_id": "d3fc1f64-626a-4c41-97e6-ee03766b4543",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [
+            {
+              "tarea_id": "b4b984a9-3a2a-422a-a9ba-c0716c51f73d",
+              "titulo": "adara",
+              "descripcion": "jjf",
+              "prioridad": "Urgente",
+              "asignado_a": null,
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:16:36.352011",
+              "fecha_modificacion": "2025-11-11T17:16:36.352029",
+              "fecha_vencimiento": null,
+              "etiquetas": []
+            },
+            {
+              "tarea_id": "87f91fb0-cf7d-4eb6-80d5-55a6a5156798",
+              "titulo": "adara2",
+              "descripcion": "hgh",
+              "prioridad": "Media",
+              "asignado_a": null,
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:16:58.450188",
+              "fecha_modificacion": "2025-11-11T17:16:58.450200",
+              "fecha_vencimiento": null,
+              "etiquetas": []
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:01:13.031466"
+        },
+        {
+          "columna_id": "8a8625a3-b757-458a-b53f-62d6410aab83",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [
+            {
+              "tarea_id": "b2850265-89f6-4936-a685-c442fb97b315",
+              "titulo": "alejo",
+              "descripcion": "jfunf",
+              "prioridad": "Media",
+              "asignado_a": null,
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:20:28.767894",
+              "fecha_modificacion": "2025-11-11T17:20:28.767907",
+              "fecha_vencimiento": null,
+              "etiquetas": []
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:01:13.031479"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:01:13.031394",
+      "fecha_modificacion": "2025-11-11T17:01:13.031481"
+    },
+    {
+      "proyecto_id": "eb58d3ca-b56b-4939-8387-e3f3e6380187",
+      "nombre": "ALEJO",
+      "descripcion": "MFKM",
+      "propietario_id": "c2b4e1f6-a986-43a5-aed1-e936610bc1a7",
+      "columnas": [
+        {
+          "columna_id": "fe319ddf-4064-4011-b37d-0ae3574e1753",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:06:37.485036"
+        },
+        {
+          "columna_id": "d9a8043c-a310-4c27-9b84-d840728e565c",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:06:37.485330"
+        },
+        {
+          "columna_id": "37693748-8ab1-4e4e-9d25-652241437f45",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:06:37.485365"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:06:37.484994",
+      "fecha_modificacion": "2025-11-11T17:06:37.485367"
+    },
+    {
+      "proyecto_id": "2a4bf6fd-4a5d-445f-9c10-11f07ca8325a",
+      "nombre": "ALEJO",
+      "descripcion": "2",
+      "propietario_id": "c2b4e1f6-a986-43a5-aed1-e936610bc1a7",
+      "columnas": [
+        {
+          "columna_id": "ffa4c9eb-7399-43be-a66a-eb6085ec4cac",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:13:38.984529"
+        },
+        {
+          "columna_id": "f4c30e20-377b-4e33-b730-bdd95bf05dcf",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:13:38.984551"
+        },
+        {
+          "columna_id": "307a7c79-9739-4bf1-8f32-5a1f0a49b0bd",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:13:38.984566"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:13:38.984493",
+      "fecha_modificacion": "2025-11-11T17:13:38.984570"
+    },
+    {
+      "proyecto_id": "cad253f2-1e59-4da7-85d9-408ca8288326",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "9945e028-492b-4808-be0d-330a67971875",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "556c3a3d-1c68-4ab0-a6de-382af47d703e",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:27:40.882846",
+              "fecha_modificacion": "2025-11-11T17:27:40.882848",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:27:40.882831"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:27:40.882802",
+      "fecha_modificacion": "2025-11-11T17:27:40.882834"
+    },
+    {
+      "proyecto_id": "6f290e48-6409-46a0-a556-2d7f74d2c07a",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "51039cac-0b88-4914-a27c-ed84d03fd12d",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "4757cb9e-ee29-494b-a470-43a7d8368b05",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:28:25.602771",
+              "fecha_modificacion": "2025-11-11T17:28:25.602772",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:28:25.602761"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:28:25.602745",
+      "fecha_modificacion": "2025-11-11T17:28:25.602763"
+    },
+    {
+      "proyecto_id": "f1442e02-1b1a-45d4-90bc-9e7e0693a7d4",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "06d9ee7c-9c42-472a-9dfd-ad92bfc48519",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "bab6bef2-ec98-4099-b02c-af916fe8329b",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:30:17.634606",
+              "fecha_modificacion": "2025-11-11T17:30:17.634609",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:30:17.634586"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:30:17.634558",
+      "fecha_modificacion": "2025-11-11T17:30:17.634591"
+    },
+    {
+      "proyecto_id": "08c83440-383c-4183-9160-630eef51d370",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "3808c79d-bd40-416e-8e29-44b1a4fd462f",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "eeb44d2d-1522-4e2d-a992-88f045c7c482",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:31:01.376919",
+              "fecha_modificacion": "2025-11-11T17:31:01.376920",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:31:01.376909"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:31:01.376893",
+      "fecha_modificacion": "2025-11-11T17:31:01.376911"
+    },
+    {
+      "proyecto_id": "10b2b268-1ad3-4dab-9485-0e0e70864ae8",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "c6c2bad2-032d-473f-b052-db93431fec34",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "ce5ff996-2066-4f5e-8c18-7ea8b8104e13",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:32:25.991738",
+              "fecha_modificacion": "2025-11-11T17:32:25.991739",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:32:25.991728"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:32:25.991713",
+      "fecha_modificacion": "2025-11-11T17:32:25.991730"
+    },
+    {
+      "proyecto_id": "19867c25-faa4-4178-8bf1-7fb229b54abd",
+      "nombre": "andres",
+      "descripcion": "ff",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "0ddf3fde-f875-48e2-9805-99aa001c9294",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:33:51.935366"
+        },
+        {
+          "columna_id": "6888e9dc-ac55-400f-9c57-6a95ad957b13",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [
+            {
+              "tarea_id": "8d5b7c66-a125-44d9-8c52-ff8a98b1ed64",
+              "titulo": "jo",
+              "descripcion": "jh",
+              "prioridad": "Baja",
+              "asignado_a": "j",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:50:56.950262",
+              "fecha_modificacion": "2025-11-11T17:50:56.950278",
+              "fecha_vencimiento": null,
+              "etiquetas": []
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:33:51.935384"
+        },
+        {
+          "columna_id": "55252c6e-79b8-4723-9050-7dd9ef72617c",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:33:51.935396"
+        },
+        {
+          "columna_id": "e1740dc3-f000-4d34-8126-80dfb5e2f5fd",
+          "nombre": "norvy",
+          "orden": 3,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:38:38.481645"
+        },
+        {
+          "columna_id": "2f603662-00c4-4558-9b79-efd3aa01b617",
+          "nombre": "norvy",
+          "orden": 4,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T17:38:43.429572"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:33:51.935306",
+      "fecha_modificacion": "2025-11-11T17:38:43.429585"
+    },
+    {
+      "proyecto_id": "4b6a9b95-9438-4430-8161-29608b80f3d4",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "8c2de982-0e1f-4ee1-b8de-b98e55070100",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "3e29f9d7-8326-482e-be9d-ea3655e3868d",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:54:12.101733",
+              "fecha_modificacion": "2025-11-11T17:54:12.101734",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:54:12.101723"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:54:12.101707",
+      "fecha_modificacion": "2025-11-11T17:54:12.101725"
+    },
+    {
+      "proyecto_id": "0b355f81-e101-419b-820f-9a7c7b17368d",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "27e60cd5-9e10-4e95-ab1c-9f643b7f549c",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "b725a9da-e165-4dba-9541-d9d9c6f0367f",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T17:55:25.554403",
+              "fecha_modificacion": "2025-11-11T17:55:25.554404",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T17:55:25.554391"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T17:55:25.554374",
+      "fecha_modificacion": "2025-11-11T17:55:25.554394"
+    },
+    {
+      "proyecto_id": "e5466211-a219-4814-801d-7671e1350694",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "833d7d11-ef5c-426f-892a-c36d10a99d3d",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "adebedee-a31c-4790-a039-46d09d660231",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:01:23.172227",
+              "fecha_modificacion": "2025-11-11T18:01:23.172228",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:01:23.172217"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:01:23.172203",
+      "fecha_modificacion": "2025-11-11T18:01:23.172219"
+    },
+    {
+      "proyecto_id": "9c5d6335-9707-45e6-b543-1286c14675c9",
+      "nombre": "andres",
+      "descripcion": "fd",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "7b8b4766-91d1-42f4-a781-e259e0c63b00",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:06:23.651075"
+        },
+        {
+          "columna_id": "d2486c4a-7d03-43af-8be8-bd034bdbcc56",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:06:23.651093"
+        },
+        {
+          "columna_id": "7ec687f2-ed26-4505-863e-1ff973aea6dc",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:06:23.651104"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:06:23.651004",
+      "fecha_modificacion": "2025-11-11T18:06:23.651106"
+    },
+    {
+      "proyecto_id": "658fdb1d-b272-4b14-9ec5-fab9a053d806",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "4e73a481-7c9d-431f-bdda-7f815189ac48",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "b7c2a567-5af0-4236-8eb7-255c2dd94a36",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:17:53.855361",
+              "fecha_modificacion": "2025-11-11T18:17:53.855363",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:17:53.855352"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:17:53.855338",
+      "fecha_modificacion": "2025-11-11T18:17:53.855354"
+    },
+    {
+      "proyecto_id": "5a9c34ef-ad3f-4036-867c-f94f180798e4",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "c319a440-78df-4a87-938a-5a53976e5f9e",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:17:53.981260"
+        },
+        {
+          "columna_id": "a9bfc0c9-86b0-4ae6-bc3f-ef64cabe7127",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:17:53.981270"
+        },
+        {
+          "columna_id": "d21e3e87-deba-4471-a34d-54fb33f8f85c",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:17:53.981278"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:17:53.981239",
+      "fecha_modificacion": "2025-11-11T18:17:53.981279"
+    },
+    {
+      "proyecto_id": "c93b8a83-b044-4b72-ad00-1165b0e20221",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "9418ed01-8ffa-4dfc-bff4-ed11f4b5b2c8",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "63f719a3-24c4-4b7b-88b6-64cbdd28b27c",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:20:10.982720",
+              "fecha_modificacion": "2025-11-11T18:20:10.982722",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:20:10.982707"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:20:10.982688",
+      "fecha_modificacion": "2025-11-11T18:20:10.982710"
+    },
+    {
+      "proyecto_id": "8cbe611e-cb1e-4cca-b8ec-5e212319f1d1",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "28857b3f-53cb-46f8-81f6-ee7f6a57943c",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:20:11.099449"
+        },
+        {
+          "columna_id": "e902762c-33d1-436b-9029-f869b083fcef",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:20:11.099454"
+        },
+        {
+          "columna_id": "de8dd7b1-c74f-4362-bd02-72257d3e041d",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:20:11.099458"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:20:11.099435",
+      "fecha_modificacion": "2025-11-11T18:20:11.099459"
+    },
+    {
+      "proyecto_id": "c288729a-2c8d-4c86-bf0e-8067cee9777a",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "b08a8c0a-db95-4337-a728-e023dcf050c7",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "a4a8e29c-ba77-4e01-b1d7-53f19d685712",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:29:57.641188",
+              "fecha_modificacion": "2025-11-11T18:29:57.641190",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:29:57.641180"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:29:57.641166",
+      "fecha_modificacion": "2025-11-11T18:29:57.641182"
+    },
+    {
+      "proyecto_id": "1ecafc70-2673-40e0-910f-ec99519298fa",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "74978f88-f83b-459d-b590-ef29e3ce0c52",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:29:57.832416"
+        },
+        {
+          "columna_id": "6de292cf-525b-42cd-a9d5-1d262f58be67",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:29:57.832422"
+        },
+        {
+          "columna_id": "d25201b7-8642-429d-bbb3-42f39021fded",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:29:57.832426"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:29:57.832404",
+      "fecha_modificacion": "2025-11-11T18:29:57.832427"
+    },
+    {
+      "proyecto_id": "79a72fe8-ee74-45b7-ad6c-2d9e6575541d",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "d23a4fe0-a51f-4a55-b440-bc6393ee08d0",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "d9dfa8e1-058d-402e-9fd9-155e9a385791",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:30:54.815160",
+              "fecha_modificacion": "2025-11-11T18:30:54.815162",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:30:54.815138"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:30:54.815109",
+      "fecha_modificacion": "2025-11-11T18:30:54.815143"
+    },
+    {
+      "proyecto_id": "cf4f0fa6-4ca2-476f-9f37-840cd10b6431",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "2b8617f5-c6e6-45c5-8f19-fdaf515e8cb7",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:30:55.055800"
+        },
+        {
+          "columna_id": "7e7e890f-aaa4-4f68-9f58-72f853e2801c",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:30:55.055806"
+        },
+        {
+          "columna_id": "9e9cba07-5ca4-4134-b545-31ebc1a033d0",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:30:55.055811"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:30:55.055786",
+      "fecha_modificacion": "2025-11-11T18:30:55.055812"
+    },
+    {
+      "proyecto_id": "b5ed3747-1a4d-4e86-aab9-c34eb4b292de",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "835b7969-43b6-403d-b4a3-247ee3df82f3",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "47c93b7b-5d1e-423d-80db-8b49fb5ede2a",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:32:48.010719",
+              "fecha_modificacion": "2025-11-11T18:32:48.010720",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:32:48.010708"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:32:48.010693",
+      "fecha_modificacion": "2025-11-11T18:32:48.010711"
+    },
+    {
+      "proyecto_id": "647ee037-31f7-4a8e-9df6-006f95ade791",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "bca3e90d-1864-4605-ad52-ac78300a4c2d",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:32:48.210971"
+        },
+        {
+          "columna_id": "009a28b5-9832-45ab-840c-06d4c2441642",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:32:48.210976"
+        },
+        {
+          "columna_id": "bd927602-8240-4301-8221-3326f03244ea",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:32:48.210980"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:32:48.210960",
+      "fecha_modificacion": "2025-11-11T18:32:48.210981"
+    },
+    {
+      "proyecto_id": "cd085fb4-92e2-4e4a-bd60-33e2c18c228b",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "2b5b5362-d4a5-442d-9511-1162060c7afb",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "8192a61a-35d0-45ec-ad1c-448f3674b7cc",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:33:16.347586",
+              "fecha_modificacion": "2025-11-11T18:33:16.347587",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:33:16.347576"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:33:16.347561",
+      "fecha_modificacion": "2025-11-11T18:33:16.347578"
+    },
+    {
+      "proyecto_id": "8b70150a-2549-476d-89bf-411cba2f1ad9",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "2e68c324-32a4-4516-b2d7-b8f0cabcfdd5",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:33:16.524063"
+        },
+        {
+          "columna_id": "5319856f-c76a-4f3b-848e-7d75c8ed5707",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:33:16.524068"
+        },
+        {
+          "columna_id": "ad7ea26e-4c97-472c-8a41-225ee990e70d",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:33:16.524072"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:33:16.524052",
+      "fecha_modificacion": "2025-11-11T18:33:16.524073"
+    },
+    {
+      "proyecto_id": "4a80962d-1580-41c3-b6bf-223b35404e8a",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "94960a85-ea69-4460-b42b-8e38b81e3c09",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "02d7c6b6-386b-4617-92d4-827f49f843ed",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:38:10.955266",
+              "fecha_modificacion": "2025-11-11T18:38:10.955268",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:38:10.955248"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:38:10.955221",
+      "fecha_modificacion": "2025-11-11T18:38:10.955252"
+    },
+    {
+      "proyecto_id": "4dcad79f-6308-4cad-bf2a-8698b5fc443d",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "25742f87-c366-4047-a5e1-2449c228e5c7",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:38:11.140443"
+        },
+        {
+          "columna_id": "f5787792-22c4-4217-8980-4a068dcda865",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:38:11.140452"
+        },
+        {
+          "columna_id": "afe914d8-216f-49b1-86f5-65340939d494",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:38:11.140460"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:38:11.140427",
+      "fecha_modificacion": "2025-11-11T18:38:11.140462"
+    },
+    {
+      "proyecto_id": "0566747f-fd98-47d5-a1cc-306266e63a33",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "b039f705-d393-4d6b-82cf-d0e9db0a516f",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "887cc0a5-e1cd-402e-aaad-e4fd9b538a47",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:39:12.300295",
+              "fecha_modificacion": "2025-11-11T18:39:12.300299",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:39:12.300253"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:39:12.300222",
+      "fecha_modificacion": "2025-11-11T18:39:12.300258"
+    },
+    {
+      "proyecto_id": "e88af551-ae42-4660-9cfa-6e6df97150ea",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "19e2cce8-0678-4c4e-a625-8653c9ce06d7",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:39:12.476996"
+        },
+        {
+          "columna_id": "3461c4fa-8592-452f-9b4e-c4656cc1d81f",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:39:12.477002"
+        },
+        {
+          "columna_id": "4fda95fd-dc38-41b7-95f6-33deaf0917cf",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:39:12.477006"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:39:12.476985",
+      "fecha_modificacion": "2025-11-11T18:39:12.477007"
+    },
+    {
+      "proyecto_id": "a55746b4-d36b-4fb9-8c8f-1d2f560edd1b",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "6334e88f-cfc7-45c1-a638-ed3cebe82de0",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "823e7e2a-9414-468c-a3b0-748a0f3ee4d1",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:40:29.062105",
+              "fecha_modificacion": "2025-11-11T18:40:29.062107",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:40:29.062093"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:40:29.062077",
+      "fecha_modificacion": "2025-11-11T18:40:29.062096"
+    },
+    {
+      "proyecto_id": "c587a951-8488-4def-9676-b0539649551e",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "eac7c758-4c90-43b5-976d-963e7aaa6811",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:40:29.253358"
+        },
+        {
+          "columna_id": "8576acc0-e159-4f8b-b5b5-e101a6bd85d1",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:40:29.253366"
+        },
+        {
+          "columna_id": "34ff89d8-5eb9-413d-b36a-27d00024d45e",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:40:29.253375"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:40:29.253339",
+      "fecha_modificacion": "2025-11-11T18:40:29.253377"
+    },
+    {
+      "proyecto_id": "375e2358-5161-491d-a3f5-dc6b99eb5535",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "4749647c-7be1-4c96-a38d-b41cfb6e6be7",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "4566def7-bb86-4fd4-90e1-8934ab76ba48",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:42:26.835893",
+              "fecha_modificacion": "2025-11-11T18:42:26.835895",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:42:26.835884"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:42:26.835871",
+      "fecha_modificacion": "2025-11-11T18:42:26.835886"
+    },
+    {
+      "proyecto_id": "37558ab5-df6c-4c60-81dc-6ab0bec80f5e",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "0654a83e-3006-44a8-8bf0-f1d5b2116a04",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:42:27.020204"
+        },
+        {
+          "columna_id": "fb0ee137-079c-4f1c-af56-3a3aafa244ee",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:42:27.020212"
+        },
+        {
+          "columna_id": "013025e3-beee-4ecd-bc19-736ed3e952c3",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:42:27.020218"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:42:27.020186",
+      "fecha_modificacion": "2025-11-11T18:42:27.020220"
+    },
+    {
+      "proyecto_id": "65708230-f686-43f8-aa28-37023adbd3a7",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "59292db9-cabb-4542-be45-70370b4e5f57",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "51236d96-9256-4d90-b388-2d34c8fbe765",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:48:47.887747",
+              "fecha_modificacion": "2025-11-11T18:48:47.887749",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:48:47.887738"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:48:47.887724",
+      "fecha_modificacion": "2025-11-11T18:48:47.887741"
+    },
+    {
+      "proyecto_id": "f7fa9407-5ee0-4273-9435-950ada706ed6",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "32699d35-3f99-4485-bb2c-3f73e39a4299",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:48:48.029350"
+        },
+        {
+          "columna_id": "896ce711-1761-46fe-b43c-243ffa2f7ab7",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:48:48.029358"
+        },
+        {
+          "columna_id": "dc632351-8dc7-43dd-9665-7fa4f632376a",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:48:48.029366"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:48:48.029332",
+      "fecha_modificacion": "2025-11-11T18:48:48.029368"
+    },
+    {
+      "proyecto_id": "231aa071-3fb5-4e4d-8920-4004559f11cd",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "cc3195ab-003d-40ef-b3fe-443397ae7074",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "8769a4b4-07f0-4dd5-8054-26dfea6a4175",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T18:49:09.062005",
+              "fecha_modificacion": "2025-11-11T18:49:09.062007",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T18:49:09.061995"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:49:09.061978",
+      "fecha_modificacion": "2025-11-11T18:49:09.061998"
+    },
+    {
+      "proyecto_id": "833fa264-5f25-494c-b2c5-2a338710aa35",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "e71eeb09-e38c-4c57-b107-a39d19ef74e5",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:49:09.217852"
+        },
+        {
+          "columna_id": "e4943e28-bc29-46c7-93ad-c7a404362645",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:49:09.217857"
+        },
+        {
+          "columna_id": "3bb55b3a-34b9-4172-bdd8-fadb9968fb2c",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T18:49:09.217861"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T18:49:09.217840",
+      "fecha_modificacion": "2025-11-11T18:49:09.217862"
+    },
+    {
+      "proyecto_id": "e3e755f7-7d1f-42be-9d0b-bb1e3a8993e1",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "8dd6dde4-de70-4f17-9845-6357cc7e32be",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "d81f2330-945d-48ae-be07-c2ed3d41f48a",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:11:54.316970",
+              "fecha_modificacion": "2025-11-11T21:11:54.316974",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:11:54.316946"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:11:54.316911",
+      "fecha_modificacion": "2025-11-11T21:11:54.316952"
+    },
+    {
+      "proyecto_id": "688e4006-e67c-4117-be3e-26c0a283b9d0",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "2705555e-2112-41b8-8fc5-4a8b757f43c4",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:11:54.591399"
+        },
+        {
+          "columna_id": "3d896803-1ee8-47e1-bb52-2c22c6962e4f",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:11:54.591410"
+        },
+        {
+          "columna_id": "bc5be994-0f6e-4600-b037-f0e70193798c",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:11:54.591420"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:11:54.591374",
+      "fecha_modificacion": "2025-11-11T21:11:54.591422"
+    },
+    {
+      "proyecto_id": "75d4d566-4611-40b2-9eb9-ceca6f3d225b",
+      "nombre": "otro",
+      "descripcion": "ff",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "d223527a-9388-46aa-8fee-307d79a89099",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:16:32.164161"
+        },
+        {
+          "columna_id": "3ceeef77-3e0f-41e8-8de4-93bc3dd590a4",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [
+            {
+              "tarea_id": "d6ccf8d2-8b53-43c7-9651-a7ec6b972484",
+              "titulo": "otro",
+              "descripcion": "f",
+              "prioridad": "Baja",
+              "asignado_a": "f",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:19:09.678966",
+              "fecha_modificacion": "2025-11-11T21:19:09.678976",
+              "fecha_vencimiento": null,
+              "etiquetas": []
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:16:32.164179"
+        },
+        {
+          "columna_id": "ec3a20be-4453-4115-b276-8813bdd2b6aa",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:16:32.164191"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:16:32.164089",
+      "fecha_modificacion": "2025-11-11T21:16:32.164193"
+    },
+    {
+      "proyecto_id": "978d0d53-304d-4acc-8531-6ee8e8a17e2f",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "3f7c46d8-f61c-47a6-8956-48f297f695e6",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "72ac30a3-848a-41c9-ad90-0c188064f4be",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:43:04.456306",
+              "fecha_modificacion": "2025-11-11T21:43:04.456312",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:43:04.456269"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:43:04.456218",
+      "fecha_modificacion": "2025-11-11T21:43:04.456278"
+    },
+    {
+      "proyecto_id": "763d89fd-5458-428f-9de8-72da154c32ef",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "2d39452b-746c-4fd8-89bf-bb893fe9f521",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:43:04.698234"
+        },
+        {
+          "columna_id": "1e87d1f2-5646-4f3e-8945-b0512f4f4848",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:43:04.698241"
+        },
+        {
+          "columna_id": "4f22a180-8463-42d2-a7e1-70e234407d25",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:43:04.698246"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:43:04.698221",
+      "fecha_modificacion": "2025-11-11T21:43:04.698247"
+    },
+    {
+      "proyecto_id": "e3143a03-43b9-4e92-a871-c05d726d4658",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "1be7d732-0d2f-4496-9208-3c52043a2e25",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "3982e4cf-02a8-42be-8822-b5cdce8db3ee",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:49:03.635141",
+              "fecha_modificacion": "2025-11-11T21:49:03.635144",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:49:03.635124"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:49:03.635099",
+      "fecha_modificacion": "2025-11-11T21:49:03.635128"
+    },
+    {
+      "proyecto_id": "7a67cb80-81b0-44a5-949d-f71824318c59",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "c6c4e41f-e7f5-4c6d-9d28-5527d61d8f89",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:49:03.804178"
+        },
+        {
+          "columna_id": "95899f6f-f9a0-4735-8762-d3822d74f096",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:49:03.804185"
+        },
+        {
+          "columna_id": "147fd422-254b-4c6d-af6b-9203c42003ca",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:49:03.804191"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:49:03.804163",
+      "fecha_modificacion": "2025-11-11T21:49:03.804192"
+    },
+    {
+      "proyecto_id": "24623fc5-9480-4b88-85f2-5ab39fb01d1e",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "f82591cf-5748-4d6d-ad43-368b57a834b1",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "9c8d3070-7cde-4665-afc1-698c786898f3",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:50:34.719749",
+              "fecha_modificacion": "2025-11-11T21:50:34.719751",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:50:34.719735"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:50:34.719712",
+      "fecha_modificacion": "2025-11-11T21:50:34.719738"
+    },
+    {
+      "proyecto_id": "59e5b75b-7b2a-4bf7-bd4c-9446e66e0fa7",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "20c5e530-3333-4fd0-8e62-2fee4ff0cdb9",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:50:34.890343"
+        },
+        {
+          "columna_id": "11bbcd57-5057-4def-9a95-5cab66c5d31f",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:50:34.890351"
+        },
+        {
+          "columna_id": "92cf80ad-0ac0-4494-b16e-b0480162bf57",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:50:34.890357"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:50:34.890327",
+      "fecha_modificacion": "2025-11-11T21:50:34.890359"
+    },
+    {
+      "proyecto_id": "9a669646-19d6-4691-aac1-f432b7ae7120",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "0411127a-defc-46b7-ae52-d3d56d4bcd69",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "cd6cdad7-8cac-4829-a605-2bcc85ea049f",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:51:04.265769",
+              "fecha_modificacion": "2025-11-11T21:51:04.265771",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:51:04.265739"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:51:04.265718",
+      "fecha_modificacion": "2025-11-11T21:51:04.265742"
+    },
+    {
+      "proyecto_id": "c42b36aa-93ea-401b-ab4d-0b7395bd709f",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "411904ac-102d-4787-9c42-6684b10adbca",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:51:04.493558"
+        },
+        {
+          "columna_id": "72f8fe85-baf1-4263-adc3-e1e195e359fe",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:51:04.493568"
+        },
+        {
+          "columna_id": "755bcc74-2b74-4a52-b4af-dc806caf2663",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:51:04.493578"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:51:04.493536",
+      "fecha_modificacion": "2025-11-11T21:51:04.493580"
+    },
+    {
+      "proyecto_id": "d8040add-212d-439c-8b6b-2ba5763117d7",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "d46c8273-97ee-490b-b373-38d3c3ec64e5",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "6fd9d534-a77b-4563-87f5-3d494474d342",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T21:51:29.042166",
+              "fecha_modificacion": "2025-11-11T21:51:29.042168",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T21:51:29.042153"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:51:29.042133",
+      "fecha_modificacion": "2025-11-11T21:51:29.042157"
+    },
+    {
+      "proyecto_id": "875bbf78-d645-42f3-b263-dfd0b5b71862",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "19fa629e-3e61-41cc-98c9-1d38ae46d34d",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:51:29.288308"
+        },
+        {
+          "columna_id": "92157fcb-5724-42b0-8a3d-3651a9a5ffcb",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:51:29.288315"
+        },
+        {
+          "columna_id": "4c8a04c4-d313-4ea3-a86b-7b38afc6dbb5",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T21:51:29.288320"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T21:51:29.288295",
+      "fecha_modificacion": "2025-11-11T21:51:29.288321"
+    },
+    {
+      "proyecto_id": "af985c8d-f95b-4f8a-a10d-eed0a739eb5d",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "9ca7e807-744e-4ccb-9908-a88e79bed013",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "8f9c068a-e061-4bd9-af3a-cfa72168c206",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T22:26:04.195463",
+              "fecha_modificacion": "2025-11-11T22:26:04.195473",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T22:26:04.195383"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:26:04.195362",
+      "fecha_modificacion": "2025-11-11T22:26:04.195386"
+    },
+    {
+      "proyecto_id": "0333d92d-7327-4e01-b0c9-60ea8b78b814",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "b4e6ccd8-6761-41b5-8f31-ada365a8503c",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:26:04.454647"
+        },
+        {
+          "columna_id": "75e6de60-2dcb-4fec-9790-e0c167959e13",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:26:04.454658"
+        },
+        {
+          "columna_id": "7dca4bad-7678-452b-a1df-29f4920fff5f",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:26:04.454668"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:26:04.454620",
+      "fecha_modificacion": "2025-11-11T22:26:04.454670"
+    },
+    {
+      "proyecto_id": "daab526b-070a-4a9b-a004-c2712d7c3b56",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "9f3d2e00-5ea3-4ed4-a157-bdba71c25e9c",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "7652ea83-99ed-4d69-b368-5a7a070be546",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T22:44:15.180009",
+              "fecha_modificacion": "2025-11-11T22:44:15.180010",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T22:44:15.179999"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:44:15.179984",
+      "fecha_modificacion": "2025-11-11T22:44:15.180001"
+    },
+    {
+      "proyecto_id": "eb53e7e8-d958-4cf1-94fb-fb957fe5c261",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "26f26cac-4fb9-4e83-8116-85fdbded04d0",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:44:15.374816"
+        },
+        {
+          "columna_id": "8c33ed51-b2a7-46e1-84b4-a121a6ed3faf",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:44:15.374825"
+        },
+        {
+          "columna_id": "4390d12a-b942-4a52-a0a3-8d3998b12608",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:44:15.374832"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:44:15.374798",
+      "fecha_modificacion": "2025-11-11T22:44:15.374834"
+    },
+    {
+      "proyecto_id": "e85ed6c9-81fa-4aec-9324-46a111dfd26e",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "3f45cf35-7dda-446c-8253-c178a095fd00",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "6a7cb10b-fa00-457e-9790-6ba0147adcbb",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T22:52:40.715431",
+              "fecha_modificacion": "2025-11-11T22:52:40.715432",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T22:52:40.715420"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:52:40.715404",
+      "fecha_modificacion": "2025-11-11T22:52:40.715422"
+    },
+    {
+      "proyecto_id": "dc295ec6-7811-47fa-bc1a-f4def7e09d41",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "f7801836-0a8e-4ba0-85c3-b416e70f0a83",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:52:40.866349"
+        },
+        {
+          "columna_id": "dbc2819a-981e-44eb-8e62-630215200824",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:52:40.866356"
+        },
+        {
+          "columna_id": "3a9913d5-5485-41f9-89dd-ecfc228e18d6",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:52:40.866362"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:52:40.866332",
+      "fecha_modificacion": "2025-11-11T22:52:40.866364"
+    },
+    {
+      "proyecto_id": "d1825086-3d47-4c51-98ae-542f3b0a773c",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "005dab7a-6df0-4d6f-b6ad-8a8ff6924962",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "b40f6192-b1d5-4a19-b641-fcc5be6ce246",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T22:54:42.231856",
+              "fecha_modificacion": "2025-11-11T22:54:42.231857",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T22:54:42.231846"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:54:42.231832",
+      "fecha_modificacion": "2025-11-11T22:54:42.231848"
+    },
+    {
+      "proyecto_id": "42732c83-3799-4398-9f4e-d36d22aeda68",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "bfdf57ec-0df8-4d0c-b6c2-fd15d0fcef65",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:54:42.429966"
+        },
+        {
+          "columna_id": "282d42fa-e402-4f84-a873-e6462ac4aec8",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:54:42.429975"
+        },
+        {
+          "columna_id": "eccead96-84d1-4f9f-962d-58436bae4f3c",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:54:42.429983"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:54:42.429945",
+      "fecha_modificacion": "2025-11-11T22:54:42.429985"
+    },
+    {
+      "proyecto_id": "0e7e939b-7220-4434-b2c9-2dd65873a266",
+      "nombre": "Proyecto Test CLI",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "fbe35777-fa09-4a4a-8418-03cdc2df0d90",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [
+            {
+              "tarea_id": "996566a8-0458-47f7-ad9b-9f492427a183",
+              "titulo": "Tarea Detalle",
+              "descripcion": "Descripción de prueba",
+              "prioridad": "Alta",
+              "asignado_a": "Carlos",
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T23:11:05.996841",
+              "fecha_modificacion": "2025-11-11T23:11:05.996843",
+              "fecha_vencimiento": null,
+              "etiquetas": [
+                "Importante",
+                "Urgente"
+              ]
+            }
+          ],
+          "fecha_creacion": "2025-11-11T23:11:05.996832"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T23:11:05.996813",
+      "fecha_modificacion": "2025-11-11T23:11:05.996834"
+    },
+    {
+      "proyecto_id": "5bab5f72-7f2a-4763-a1f9-03a500a643cf",
+      "nombre": "Proyecto Prueba",
+      "descripcion": "",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "7961a4db-54d0-4186-b87b-6db356dbeea6",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T23:11:06.204710"
+        },
+        {
+          "columna_id": "5c98cc91-b32f-4b6a-b098-f8380c668ac3",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T23:11:06.204719"
+        },
+        {
+          "columna_id": "66c368f8-ea48-4ba2-a0b0-134bc1efccaa",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T23:11:06.204727"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T23:11:06.204689",
+      "fecha_modificacion": "2025-11-11T23:11:06.204729"
+    }
+  ],
+  "usuarios": [
+    {
+      "usuario_id": "f6697e38-5eb5-4819-baa0-952fdce1676d",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T18:40:29.181952"
+    },
+    {
+      "usuario_id": "6c8fbf96-d212-4a9a-a9bf-d7e5b047f5e8",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T18:40:29.181973"
+    },
+    {
+      "usuario_id": "77465221-e921-4b49-bd06-c652f2f64760",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T18:42:26.939734"
+    },
+    {
+      "usuario_id": "75e474a8-c98e-44bc-8e2a-ae8d15dee99c",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T18:42:26.939836"
+    },
+    {
+      "usuario_id": "1ed342c8-1823-4095-95dd-f17f4660ce0a",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T18:48:47.982431"
+    },
+    {
+      "usuario_id": "49263f51-c165-4eac-b3b3-ea3247332416",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T18:48:47.982447"
+    },
+    {
+      "usuario_id": "c01d68f9-d6c5-43b3-8f93-642f2c6e4b78",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T18:49:09.190041"
+    },
+    {
+      "usuario_id": "cfd01165-8127-4e5e-bd5f-6d947bae4200",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T18:49:09.190057"
+    },
+    {
+      "usuario_id": "c21c4c96-8fb5-4cbf-8fac-60250b475b50",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T21:11:54.506713"
+    },
+    {
+      "usuario_id": "41d7ee90-c941-4377-95c4-2615e3bbeaaf",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T21:11:54.506733"
+    },
+    {
+      "usuario_id": "d06eedc7-68bf-444e-8adc-ac5029e57d60",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T21:43:04.617423"
+    },
+    {
+      "usuario_id": "3db71329-f276-4deb-a50d-0b8b78b03d54",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T21:43:04.617441"
+    },
+    {
+      "usuario_id": "289dfad3-222b-4261-9ce5-32c5e8bce137",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T21:49:03.728433"
+    },
+    {
+      "usuario_id": "d6cf880c-f0ad-4aac-9abc-15049b2c84a1",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T21:49:03.728450"
+    },
+    {
+      "usuario_id": "a03227d8-ff64-40cf-8303-47df3bd7aab2",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T21:50:34.817309"
+    },
+    {
+      "usuario_id": "0d9f8474-b658-4c5b-8442-c848154cb8ed",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T21:50:34.817329"
+    },
+    {
+      "usuario_id": "d38f5a23-0c75-4fa5-8219-a6af5b1be680",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T21:51:04.392520"
+    },
+    {
+      "usuario_id": "28b0420a-27e5-4c7e-a461-591593f09f4f",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T21:51:04.392537"
+    },
+    {
+      "usuario_id": "3f7339aa-ae7b-40bb-b7c2-009b43ede11f",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T21:51:29.189666"
+    },
+    {
+      "usuario_id": "e616e1f7-3e46-4da9-a874-e725bf25e610",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T21:51:29.189691"
+    },
+    {
+      "usuario_id": "2a836331-06ce-4943-998a-8a2d2c5ff84b",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T22:26:04.359082"
+    },
+    {
+      "usuario_id": "ec5c6424-938f-4824-a90b-136fcbea37ce",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T22:26:04.359130"
+    },
+    {
+      "usuario_id": "ce9631ea-ca67-42be-8a39-4101e38c1470",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T22:44:15.301118"
+    },
+    {
+      "usuario_id": "f618944d-3076-4d23-a577-a251182bce2a",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T22:44:15.301132"
+    },
+    {
+      "usuario_id": "9e73f312-245f-4a67-9771-4de132511244",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T22:52:40.801650"
+    },
+    {
+      "usuario_id": "797cc38d-fd1c-4a3a-8d61-b91d1db06c8f",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T22:52:40.801665"
+    },
+    {
+      "usuario_id": "a1e2cdf3-9494-4c6f-8126-388d6fa46fae",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T22:54:42.350799"
+    },
+    {
+      "usuario_id": "d1355c88-7b6a-49e0-bdfd-c1acb19eb907",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T22:54:42.350814"
+    },
+    {
+      "usuario_id": "b3c3ab10-6035-4295-a2b2-cd50af7d9e3a",
+      "nombre": "Ana",
+      "email": "ana@example.com",
+      "fecha_creacion": "2025-11-11T23:11:06.129643"
+    },
+    {
+      "usuario_id": "fb926dc9-d029-41ba-a3e6-be4f7be7eb30",
+      "nombre": "Luis",
+      "email": "luis@example.com",
+      "fecha_creacion": "2025-11-11T23:11:06.129656"
+    }
+  ]
+}
