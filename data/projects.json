@@ -1,6 +1,7 @@
 {
   "proyectos": [
     {
+<<<<<<< HEAD
       "proyecto_id": "c29eb568-8b38-4907-adc5-63f7d3de6396",
       "nombre": "alejo",
       "descripcion": "hhgg",
@@ -39,10 +40,78 @@
               "estado": "Pendiente",
               "fecha_creacion": "2025-11-11T17:16:58.450188",
               "fecha_modificacion": "2025-11-11T17:16:58.450200",
+=======
+      "proyecto_id": "6a297bca-e2c7-4f70-8f69-646cc31fffd6",
+      "nombre": "HOLA",
+      "descripcion": "5",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "5810ef83-b67e-4ef7-9fb0-fa9c833f0d29",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:05:29.116105"
+        },
+        {
+          "columna_id": "55446f5f-19e6-42e4-a7a3-b902568929c1",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:05:29.116125"
+        },
+        {
+          "columna_id": "7f080918-160e-4ffd-b69f-783000e47617",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:05:29.116135"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:05:29.116012",
+      "fecha_modificacion": "2025-11-11T22:05:29.116136"
+    },
+    {
+      "proyecto_id": "1eac6e48-f511-4b2c-a240-03165a8aadf5",
+      "nombre": "Proyecto 1",
+      "descripcion": "dasda",
+      "propietario_id": null,
+      "columnas": [
+        {
+          "columna_id": "dd08fe37-13b5-4301-bfb2-67ccbbe7752b",
+          "nombre": "Pendiente",
+          "orden": 0,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:24:03.325756"
+        },
+        {
+          "columna_id": "0bc4f2e7-09a8-4e9e-9759-84e75d30fd4d",
+          "nombre": "En Progreso",
+          "orden": 1,
+          "tareas": [],
+          "fecha_creacion": "2025-11-11T22:24:03.325765"
+        },
+        {
+          "columna_id": "4caba5a1-6081-440a-aada-e0465a0890c2",
+          "nombre": "Completada",
+          "orden": 2,
+          "tareas": [
+            {
+              "tarea_id": "e321a41f-630a-4fe5-8148-eae57b5632cb",
+              "titulo": "Tarea 1",
+              "descripcion": "",
+              "prioridad": "Media",
+              "asignado_a": null,
+              "estado": "Pendiente",
+              "fecha_creacion": "2025-11-11T22:25:25.914748",
+              "fecha_modificacion": "2025-11-11T22:25:25.914758",
+>>>>>>> dc79b5d37ee3c74eea9f1e28cde9f0868b2c017e
               "fecha_vencimiento": null,
               "etiquetas": []
             }
           ],
+<<<<<<< HEAD
           "fecha_creacion": "2025-11-11T17:01:13.031466"
         },
         {
@@ -2243,4 +2312,15 @@
       "fecha_creacion": "2025-11-11T23:11:06.129656"
     }
   ]
+=======
+          "fecha_creacion": "2025-11-11T22:24:03.325775"
+        }
+      ],
+      "miembros": [],
+      "fecha_creacion": "2025-11-11T22:24:03.325732",
+      "fecha_modificacion": "2025-11-11T22:24:03.325776"
+    }
+  ],
+  "usuarios": []
+>>>>>>> dc79b5d37ee3c74eea9f1e28cde9f0868b2c017e
 }
